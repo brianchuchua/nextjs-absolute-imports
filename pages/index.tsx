@@ -2,6 +2,12 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import { isFruit } from '@app/features/apricots';
+import { hasSeed } from '@app/features/bananas';
+
+if (alert) {
+  alert(hasSeed);
+}
 
 const Home: NextPage = () => {
   return (
