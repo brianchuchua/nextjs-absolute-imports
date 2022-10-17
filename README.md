@@ -28,3 +28,7 @@ While the absolute imports worked immediately, VS Code was reporting the followi
 I tried to go through https://stackoverflow.com/questions/55198502/using-eslint-with-typescript-unable-to-resolve-path-to-module/56696478
 
 ... but all that was needed was to restart VS Code.
+
+## Keystone v6
+
+In a Keystone project, I found I also had to add "plugin:import/typescript" to the "extends" property of `eslintrc.json`.
